@@ -8,7 +8,6 @@ import googleLogo from '../../assets/google-glass-logo.png'
 import laptop from '../../assets/lk_login_img_new.png'
 
 import './index.scss';
-import 'react-phone-number-input/style.css';
 
 const Login: React.FC = () => {
     const [phone, setNumber] = useState<string>("");
